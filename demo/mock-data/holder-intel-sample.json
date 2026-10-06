@@ -1,0 +1,16 @@
+{
+  "_note": "MOCK DATA ONLY — illustrative example of Holder Intel wallet classification output",
+  "service": "synapz-holder-intel",
+  "token": "BPURK",
+  "chain": "solana",
+  "snapshot_date": "2026-10-06",
+  "classifications": [
+    { "category": "DIAMOND_HANDS", "wallet_count": 142, "pct_supply": 28.4 },
+    { "category": "ACTIVE_TRADER", "wallet_count": 87, "pct_supply": 12.1 },
+    { "category": "KOL", "wallet_count": 11, "pct_supply": 5.3 },
+    { "category": "WHALE", "wallet_count": 4, "pct_supply": 31.2 },
+    { "category": "NEW_HOLDER", "wallet_count": 203, "pct_supply": 23.0 }
+  ],
+  "kol_wallets_tracked": 11,
+  "alerts_active": 0
+}
