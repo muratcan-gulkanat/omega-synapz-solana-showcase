@@ -24,11 +24,13 @@ SYNAPZ is an AI-native infrastructure platform. We build:
 
 | Area | Status |
 |------|--------|
-| Solana live market-making (Flywheel v3, MMV2) | ✅ Live |
+| Solana live market-making (Flywheel v3) | ✅ Live |
 | Baby PURK (BPURK) Solana market-maker | ✅ Live |
 | FML token pressure engine (Solana) | ✅ Live |
-| MEV copy-trade executor (Solana) | ✅ Live |
-| KYRO — AI artist minting on-chain | ✅ In production |
+| MEV copy-trade executor (Solana) | 🔧 Deployed and configured |
+| MMV2 isolated market-maker stack | 🔧 Deployed — pending activation |
+| KYRO — AI artist on-chain releases (EVM) | ✅ In production |
+| KYRO — Solana-native migration | 🔧 In progress (Q4 2026) |
 | SYNAPZ Genesis 1/1 NFT collection (Robinhood Chain / EVM) | ✅ Live |
 | Solana Devnet multichain qualification | ✅ Complete |
 | SPL token launch tooling | 🔧 In progress |
@@ -40,16 +42,16 @@ SYNAPZ is an AI-native infrastructure platform. We build:
 
 - **Flywheel v3** — 4-state autonomous trading strategy running on Solana mainnet
 - **Baby PURK (BPURK)** — live Solana market-maker with wallet classification and holder intelligence
-- **MMV2** — isolated market-maker stack, fully deployed, health checks passing
-- **KYRO Genesis Engine** — autonomous AI artist pipeline; KYRO generates, tokenises and releases music autonomously
-- **SYNAPZ NFT Engine** — first live 1/1 NFT collection released; minting and royalty contracts deployed
-- **MEV Copy Executor** — live Solana sniper/copy-trading executor with configurable wallet targeting
+- **KYRO Genesis Engine** — autonomous AI artist pipeline; KYRO generates and releases music under governed approval gates; first NFT collection live on Robinhood Chain (EVM); Solana migration in progress
+- **SYNAPZ NFT Engine** — first live 1/1 NFT collection released on Robinhood Chain; minting and royalty contracts deployed
 - **Holder Intel Service** — on-chain wallet classification and KOL tracking for token operations
 
 ---
 
-## What Is In Progress
+## What Is Deployed / In Progress
 
+- **MEV Copy Executor** — Solana executor deployed; sniper wallet configured and tested; full live execution in progress
+- **MMV2** — isolated market-maker stack fully deployed, health checks passing; not yet live-trading
 - **SPL token launcher** — governed SPL token deployment tooling with policy gating
 - **Anchor program — governed execution registry** — on-chain record of governed AI decisions (Q4 2026)
 - **KYRO on-chain releases via Solana** — migrating KYRO's release pipeline from EVM to Solana-native
@@ -62,11 +64,11 @@ SYNAPZ is an AI-native infrastructure platform. We build:
 
 KYRO is not a tool — KYRO is an autonomous digital DJ and producer that:
 - Generates original music using governed AI pipelines
-- Releases tracks autonomously on-chain (NFT + token-gated)
-- Manages its own treasury via governed approval gates
+- Releases tracks on-chain (NFT + token-gated) under human-approved governance gates
+- Treasury operations are gated through the SYNAPZ Governed Capability Layer (GCL) before execution
 - Operates across EVM and Solana ecosystems
 
-KYRO represents one of the first production deployments of a **fully autonomous, on-chain creative AI persona** operating under a governed approval framework.
+KYRO is a production deployment of a **fully autonomous, on-chain creative AI persona** operating under a governed approval framework.
 
 ---
 
@@ -74,20 +76,20 @@ KYRO represents one of the first production deployments of a **fully autonomous,
 
 ```
 omega-synapz-solana-showcase/
-├── README.md                   # This file
-├── SECURITY.md                 # Responsible disclosure
-├── LICENSE                     # Proprietary — all rights reserved
+├── README.md              # This file
+├── SECURITY.md            # Responsible disclosure
+├── LICENSE                # Proprietary — all rights reserved
 ├── .gitignore
 ├── docs/
-│   ├── architecture.md         # System architecture overview
-│   ├── roadmap.md              # Public roadmap
-│   ├── token-utility.md        # Token utility overview (compliant)
-│   └── kyro-genesis.md         # KYRO / Genesis Engine overview
+│   ├── architecture.md    # System architecture overview
+│   ├── roadmap.md         # Public roadmap
+│   ├── token-utility.md   # Token utility overview (compliant)
+│   └── kyro-genesis.md    # KYRO / Genesis Engine overview
 ├── demo/
-│   ├── README.md               # Demo index
-│   └── mock-data/              # Safe mock data examples
+│   ├── README.md          # Demo index
+│   └── mock-data/         # Safe mock data examples
 └── programs/
-    └── README.md               # Planned Solana program notes
+    └── README.md          # Planned Solana program notes
 ```
 
 ---
@@ -109,4 +111,4 @@ We are applying to Breakpoint to connect with the Solana ecosystem, accelerate o
 
 ---
 
-*© 2026 SYNAPZ AI Ltd. All rights reserved. Proprietary and confidential.*
+*© 2026 SYNAPZ AI Ltd. All rights reserved. Proprietary.*
