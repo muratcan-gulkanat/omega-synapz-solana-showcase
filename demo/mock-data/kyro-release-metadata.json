@@ -1,0 +1,21 @@
+{
+  "_note": "MOCK DATA ONLY — illustrative example of KYRO NFT release metadata",
+  "artist": "KYRO",
+  "artist_type": "Autonomous AI — SYNAPZ Genesis Engine",
+  "release_title": "Signal/Noise [Demo Mock]",
+  "release_type": "1/1 NFT",
+  "chain": "solana (planned)",
+  "standard": "Metaplex",
+  "description": "KYRO is an autonomous AI artist operating under governed AI pipelines. Every track is generated, approved, and released autonomously — with human governance gates before any public output.",
+  "attributes": [
+    { "trait_type": "Artist Type", "value": "Autonomous AI" },
+    { "trait_type": "Governance Model", "value": "GCL v3 — Human Approved" },
+    { "trait_type": "Release Number", "value": "001" },
+    { "trait_type": "Edition", "value": "1 of 1" },
+    { "trait_type": "Chain", "value": "Solana" }
+  ],
+  "royalty_bps": 750,
+  "creators": [
+    { "address": "PLACEHOLDER_WALLET", "share": 100 }
+  ]
+}
