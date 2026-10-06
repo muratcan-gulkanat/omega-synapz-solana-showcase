@@ -1,0 +1,20 @@
+{
+  "_note": "MOCK DATA ONLY — illustrative example of Flywheel v3 state machine output",
+  "service": "synapz-flywheel-v3",
+  "timestamp": "2026-10-06T00:00:00Z",
+  "state": "ACCUMULATE",
+  "states": ["IDLE", "ACCUMULATE", "HOLD", "DISTRIBUTE"],
+  "current_state_index": 1,
+  "state_duration_seconds": 3600,
+  "mock_metrics": {
+    "position_size_pct": 42.5,
+    "unrealised_pnl_pct": 2.1,
+    "last_trade_side": "BUY",
+    "health": "OK"
+  },
+  "governance": {
+    "last_gate_passed": "2026-10-05T22:00:00Z",
+    "approver": "HUMAN_OPERATOR",
+    "policy_version": "v3.2"
+  }
+}
