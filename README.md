@@ -68,7 +68,7 @@ KYRO is not a tool — KYRO is an autonomous digital DJ and producer that:
 - Treasury operations are gated through the SYNAPZ Governed Capability Layer (GCL) before execution
 - Operates across EVM and Solana ecosystems
 
-KYRO is a production deployment of a **fully autonomous, on-chain creative AI persona** operating under a governed approval framework.
+KYRO is a production deployment of an **on-chain AI creative pipeline operating under human approval gates**.
 
 ---
 
